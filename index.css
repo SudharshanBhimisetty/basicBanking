@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+.header {
+  text-align: center;
+  margin-top: 10px;
+  font-family: fantasy;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.customers {
+  width: 100%;
+
+  text-align: center;
+}
+
+.customers > h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.customer-heading {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.customer {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.customer > button {
+  padding: 4px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.link {
+  font-size: 1.2rem;
+}
+a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(233, 210, 224);
+}
+
+.transactions > h3 {
+  text-align: center;
+}
+
+.link {
+  margin-left: 40px;
+  font-size: 1.2rem;
+}
+
+.transaction {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
